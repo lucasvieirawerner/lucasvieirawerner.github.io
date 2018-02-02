@@ -1,309 +1,912 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en">
 <head>
-    <title>Lucas Werner</title>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <title>Hi, I'm Lucas</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 
-<body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile" src="assets/images/profile.png" alt="" />
-                <h1 class="name">Lucas Vieira Werner</h1>
-                <h3 class="tagline">Developer</h3>
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage" style="max-width: 150px;margin-left: 20px;">
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>$_"Hello World!"</h3>
+
+                <h1>
+                    I am Lucas Vieira Werner. <br>
+                    I am a Software Engineer, <br>
+                    based in Brazil.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Portfolio
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
             </div>
 
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: yourname@email.com">lucaswerner@outlook.com.br</a></li>
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:55 42 999118713">+55 42 999118713</a></li>
-                    <!-- <li class="website"><i class="fa fa-globe"></i><a href="http://lucasvieirawerner.github.io/" target="_blank">lucasvieirawerner.github.io</a></li> -->
-                    <li class="facebook"><i class="fa fa-facebook"></i><a href="http://www.facebook.com/lwerner02" target="_blank">facebook.com/lwerner02</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/in/lucaswerner" target="_blank">linkedin.com/in/lucaswerner</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="http://www.github.com/lucasvieirawerner" target="_blank">github.com/lucasvieirawerner</a></li>
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/lwerner02" target="_blank">@lwerner02</a></li>
-                </ul>
-            </div><!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">Bachelor in Computer Engineer</h4>
-                    <h5 class="meta">State University of Ponta Grossa</h5>
-                    <div class="time">2012 - 2016</div>
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+                                <li>
+                        <a href="https://www.linkedin.com/in/lucaswerner/"><i class="im im-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/lucasvieirawerner"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
+                    </li>
+            <li>
+                <a href="https://www.facebook.com/lwerner02"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/LWerner02"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/lwerner02/"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>Let me introduce myself.</h1>
+                <br>
+                <div class="col-three tab-full contact__infos">
+                <img src="images/profile-pic.png" alt="Profile Picture">
+            </div>
+            <div class="col-nine tab-full contact__infos">
+                <p class="lead">I Have experience with web developing, desktop application, arduino and wearable,I love to learn new things, and create things that impact people and i'm always trying to improve my skills. I'm open to listen and develop innovative ideas with teamwork to achieve the goals, whether personal or professional.</p>
+            </div></div>
+        </div>
+
+        <div class="row about-content">
+
+            
+            <div class="col-six tab-full left">
+
+                    <h3>Profile</h3>
+                    <p>Let me tell you some info about me...</p>
+        
+                            <br>
+                            <strong>Fullname:</strong><br>
+                            <span>Lucas Vieira Werner</span>
+                            <br><br>
+                            <strong>Birth Date:</strong><br>
+                            <span>March 03, 1995</span>
+                            <br><br>
+                            <strong>Job:</strong><br>
+                            <span>Web Developer, Freelancer, Student</span>
+                            <br><br>
+                            <strong>Website:</strong><br>
+                            <a href="/">www.lucasvieirawerner.com</a>
+                            <br><br>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:contact@lucasvieirawerner.com" target="_top">contact@lucasvieirawerner.com</a>
+                            <br><br>
+                            <strong>Hobbies:</strong><br>
+                            <span>Soccer, listening to music, watching film</span>
+                            <br>
+        
                 </div>
-                <div class="item">
-                    <h4 class="degree">MSc in biomedical engineering</h4>
-                    <h5 class="meta">Federal Technological University of Paraná</h5>
-                    <div class="time">2017 - 2019</div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent95"></div>
+                    <strong>PHP & Laravel</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"></div>
+                    <strong>Java</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"></div>
+                    <strong>HTML & CSS</strong>
+                    </li>
+                    <li>
+                            <div class="progress percent90"></div>
+                            <strong>GIMP</strong>
+                            </li>  
+                    <li>
+                    <div class="progress percent95"></div>
+                    <strong>Javascript & JQuery</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"></div>
+                    <strong>OracleSQL, Mysql, MariaDB & Sybase</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent75"></div>
+                    <strong>Firebase</strong>
+                    </li> 
+                    <li>
+                    <div class="progress percent90"></div>
+                    <strong>GNU/Linux & AWS</strong>
+                    </li>   
+                    <li>
+                            <div class="progress percent40"></div>
+                            <strong>Angular</strong>
+                            </li>  
+                            
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Oct 2017 - Present</p>
+                            <h3>WellBe</h3>
+                            <h5>Co-Founder</h5>
+                            
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Developing a health native Android and iOS app, integration with Apple Health and Google Fit. Developing a laravel API and using Firebase as back-end.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Jun 2016 - Oct 2017</p>
+                            <h3>StillGood</h3>
+                            <h5>Co-Founder & CEO</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>StillGood, a sustainable startup founded in the city of Curitiba, was created with a mission to minimize one of the great problems of the modern world: food wastage. Connecting producers, distributors and food manufacturers who have products with expiration close to maturity with bars and restaurants, reducing waste, in addition to maximizing the profit of the buyer and seller. By connecting your customers through a platform, quality service also for a desired transaction performance, ensuring security and excellence in the delivery of products.
+                                Within StillGood, I worked on business development, business plan, strategic plan, marketing and sales plan, creating and monitoring KPIs for the control and evaluation of results. Also participate in product management, updated with developers.
+                                <br>Technologies: PHP, Laravel, MySQL, JQuery, Twitter Bootstrap, WebView (mobile) and AWS..</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Sep 2016 - Dec 2016</p>
+                            <h3>Geovoxel</h3>
+                            <h5>Web development intern</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>Web development of geomatics systems.
+                                <br>Technologies: Django, Angular, Leaflet, postgresql and postgis.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Mar 2016 - Aug 2016</p>
+                            <h3>State University of Ponta Grossa</h3>
+                            <h5>Web development intern</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>System of management of agreements between the university and external agents.
+                                Technologies: Laravel, Angular, JQuery, Twitter Bootstrap and Sybase.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Sep 2014 - Aug 2016</p>
+                            <h3>Junior computer engineering company - EJEC</h3>
+                            <h5>co founder and managing director</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Coordination of projects, team management, customer meetings and development.
+                                <br>Technologies: PHP, Laravel, MySQL and Twitter Bootstrap.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Aug 2015 - Dec 2015</p>
+                            <h3>KMM Engenharia de Sistemas</h3>
+                            <h5>Intern of Software and hardware development</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Worked in the innovation sector, working on the development of new IoT tools for tire monitoring of large fleets.
+                                <br>Technologies: Java, Oracle PL / SQL and Radio Frequency Identification (RFID).</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Dec 2014 - Mar 2015</p>
+                            <h3>Timberline Four Seasons Resort</h3>
+                            <h5>General services</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Interchange J1/Work&Travel program.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
+
+        
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>Education</h3>
+            </div>
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">2017 - Present</p>
+                            <h3>Junior computer engineering company - EJEC</h3>
+                            <h5>Paraná Federal University - Curitiba campus</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Master's degree in Biomedical engineering</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">2012 - 2016</p>
+                            <h3>Bachelor Degree</h3>
+                            <h5>State University of Ponta Grossa</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>Bachelor's degree in Computer Engineering.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+        </div> <!-- end about-content buttons -->
+        <br>
+    </section> <!-- end about -->
+    
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>Check Out Some of My Works.</h1>
+            </div>
+        </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/beetle.jpg" 
+                                     srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                II Symposium of the Brazilian Association of Horticulture of Paraná
+                            </h3>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <a href="http://sites.uepg.br/IISABH-PR/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/lighthouse.jpg" 
+                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                e-comerce StillGood
+                            </h3>
+                            <p class="item-folio__cat">
+                            </p>
+                        </div>
+
+                        <!-- <a href="#" class="item-folio__project-link" title="Project link"> -->
+                            <!-- <i class="im im-link"></i> -->
+                        <!-- </a> -->
+
+                        <div class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Site of the Agrarian and Technology Sciences Sector of the state university of Ponta Grossa
+                            </h3>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <a href="http://scate.uepg.br/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                App of WellBe
+                            </h3>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <a href="http://www.wellbe.co/assets/images/app-store-badge.png" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/skaterboy.jpg"
+                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                App of StillGood
+                            </h3>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"> -->
+                            <!-- <i class="im im-link"></i> -->
+                        <!-- </a> -->
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Site of WellBe
+                            </h3>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <a href="http://www.wellbe.co/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/minimalismo.jpg"
+                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                tire monitoring system
+                            </h3>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"> -->
+                            <!-- <i class="im im-link"></i> -->
+                        <!-- </a> -->
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Site of the Pontagrossense Olympiad of Mathematics
+                            </h3>
+                            <p class="item-folio__cat">
+                                
+                            </p>
+                        </div>
+
+                        <a href="http://sites.uepg.br/olimpiada/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+
+
+
+    <!-- testimonials
+    ================================================== -->
+    <!-- <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">What People Say.</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    <div class="testimonials__author h06">
+                        Tim Cook
+                        <span>CEO, Apple</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                    Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                    <div class="testimonials__author h06">
+                        Sundar Pichai
+                        <span>CEO, Google</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+                    <div class="testimonials__author h06">
+                        Satya Nadella
+                        <span>CEO, Microsoft</span>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div> 
+
+    </div>  -->
+
+
+    <!-- blog
+    ================================================== -->
+    <section id="github" class="s-blog target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h2>My GitHub</h2>
+                <br>
+                <!-- Prepare a container for your calendar. -->
+<script
+src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+>
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+rel="stylesheet"
+href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+  <!-- Loading stuff -->
+  Loading the data just for you.
+</div>
+
+<script>
+  new GitHubCalendar(".calendar", "lucasvieirawerner");
+</script>
+            </div>
+        </div>
+
+        <div class="row blog-content">
+            <div class="col-full">
+
+                
+            </div> <!-- end col-full -->
+        </div> <!-- end blog-content -->
+
+    </section> <!-- end s-blog -->
+
+
+
+    <!-- s-stats
+    ================================================== -->
+    <!-- <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    128
+                </div>
+                <h4>Awards Received</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    1500
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    110
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    101
+                </div>
+                <h4>Happy Clients</h4> 
+            </div>
+
+        </div>
+    </section> end s-stats -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>I'd Love To Hear From You.</h1>
+                <p class="lead">Please feel free contact me at social media, e-mail or phone call!</p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Mobile: (+55) 42 999118713<br>
+                </p>
+
+            </div>
+            <div class="col-four tab-full contact__infos">
+
+                    <h4 class="h06">Email</h4>
+                    <p>contact@lucasvieirawerner.com<br>
+                    lucaswerner@outlook.com.br
+                    </p>
+    
+                </div>
+                <div class="col-four tab-full contact__infos">
+                  
+                        <h4 class="h06">Address</h4>
+                        <p>
+                        2313 Engenheiros Rebouças, AP7<br>
+                        Curitiba, PR<br>
+                        80230040 BR
+                        </p>
+                    </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                        <li><a href="https://github.com/lucasvieirawerner">
+                            <i class="im im-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </a></li>
+                        <li><a href="https://www.linkedin.com/in/lucaswerner/">
+                                <i class="im im-linkedin" aria-hidden="true"></i>
+                                <span>Linkedin</span>
+                            </a></li>
+                    <li><a href="https://www.facebook.com/lwerner02">
+                        <i class="im im-facebook" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a></li>
+                    <li><a href="https://twitter.com/LWerner02">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/lwerner02/">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Lucas Vieira Werner</span>
+                    <span style="font-size: 9px;">Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
                 </div>
             </div>
 
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Portuguese <span class="lang-desc">(Native)</span></li>
-                    <li>English <span class="lang-desc">(Professional)</span></li>
-                    <li>Spanish <span class="lang-desc">(basic)</span></li>
-                    <li>French <span class="lang-desc">(basic)</span></li>
-                    <li>German <span class="lang-desc">(basic)</span></li>
-                </ul>
-            </div><!--//interests-->
+        </div> <!-- end footer-bottom -->
 
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Inovation</li>
-                    <li>Entrepreneur</li>
-                    <li>Hackinghealth</li>
-                    <li>Soccer</li>
-                </ul>
-            </div><!--//interests-->
+    </footer> <!-- end footer -->
 
-        </div><!--//sidebar-wrapper-->
 
-        <div class="main-wrapper">
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-            <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
-                <div class="summary">
-                    <p>Have experience with web developer, desktop application, arduino and wearable technology, love to learn new things, and create things that impact people, believe in actuation of population, voluntary in CodeForPG an OpenBrazil brigade.</p>
-                </div><!--//summary-->
-            </section><!--//section-->
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
 
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Co-founder - StillGood</h3>
-                            <div class="time">Sep 2016 - Present</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Curitiba, PR - BR</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p></p>
-                    </div><!--//details-->
-                </div>
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Web Developer - Geovoxel</h3>
-                            <div class="time">Sep 2016 - Dec 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Home Office</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>web development using Django for Back-end, Angular, JQuery and Twitter Bootstrap for Front-End</p>
-                    </div><!--//details-->
-                </div>
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Web Developer - STATE UNIVERSITY OF PONTA GROSSA</h3>
-                            <div class="time">Mar 2016 - Aug 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Ponta Grossa, PR - BR</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>web development using Laravel for Back-end, Angular, JQuery and Twitter Bootstrap for Front-End</p>
-                    </div><!--//details-->
-                </div><!--//item-->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Software Developer - KMM ENGENHARIA DE SISTEMAS</h3>
-                            <div class="time">Aug 2015 - Dec 2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Ponta Grossa, PR - BR</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>In the innovation sector, working on developing new tools for IoT based on Java, PL / SQL Oracle, and Radio Frequency Identification (RFID)</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Managing director & Developer - EJEC</h3>
-                            <div class="time">Sep 2014 - Aug 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Ponta Grossa, PR - BR</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>project coordination, web solutions based on PHP, Laravel, MySQL and Twitter Bootstrap</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">General Director - CAECOMP</h3>
-                            <div class="time">Aug 2014 - Oct 2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Ponta Grossa, PR - BR</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Acting in the management of projects and actions of interest to computer engineering academic, such as lectures, short courses and workshops.</p>
-
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Ski technician - TIMBERLINE FOUR SEASONS RESORT</h3>
-                            <div class="time">Dec 2014 - Mar 2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Davis, WV - USA</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>set and calculate preasure for ski for Costumers</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-
-            </section><!--//section-->
-
-            <!-- <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-                <div class="intro">
-                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">DevStudio</a></span> -
-                    <span class="project-tagline">A responsive website template designed to help web developers/designers market their services. </span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/" target="_blank">Tempo</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote their products or services and to attract users &amp; investors</span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="hhttp://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Atom</a></span> - <span class="project-tagline">A comprehensive website template solution for startups/developers to market their mobile apps. </span>
-                </div>
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
-                </div>
-            </section> -->
-
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                <div class="skillset">
-                    <div class="item">
-                        <h3 class="level-title">PHP</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%">
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <h3 class="level-title">Java</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="80%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Python</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="79%">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="item">
-                        <h3 class="level-title">HTML5 &amp; CSS</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="79%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title"> Laravel</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="78%">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <h3 class="level-title">GNU/Linux</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="77%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Javascript &amp; jQuery</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="76%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Gimp</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="75%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Arduino</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="75%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">OracleSQL, Mysql  &amp;  Sybase</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="75%">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
-
-
-
-                    <div class="item">
-                        <h3 class="level-title">Angular</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="45%">
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
                 </div>
-            </section><!--//skills-section-->
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
 
-        </div><!--//main-body-->
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
 
-    <footer class="footer">
-        <div class="text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <!-- <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
-        </div><!--//container-->
-    </footer><!--//footer-->
 
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9e2d0e80-244b-448e-94f2-ff5668546c61";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </body>
+
 </html>
